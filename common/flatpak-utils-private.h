@@ -62,6 +62,8 @@
  * version 1 is compact format with inline cache and no deltas
  */
 
+#define FLATPAK_SUMMARY_DIFF_HEADER "xadf"
+
 gboolean flatpak_set_tty_echo (gboolean echo);
 void flatpak_get_window_size (int *rows,
                               int *cols);
